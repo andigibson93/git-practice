@@ -37,8 +37,8 @@
 
 
 
-    //replace with the logic for the timestamps
-   //if the timestamp is between this and this, increase the count.
+   //replace with the logic for the timestamps
+   //if the timestamp is between a range, increase the count.
    
    //[[10, 0]], [20, 0], [30, 0]] ......numBuckets = 50.
    //collected in 10 seconds.
