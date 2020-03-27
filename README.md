@@ -67,6 +67,7 @@ git checkout new-branch
 git pull
 ```
 
+## Apply stashed files
 ```
 git stash apply
 ```
@@ -76,11 +77,18 @@ git stash apply
 git merge <name of file>
 ```
 
-```
-git rebase <name of file>
-```
-
 ## Add/edit a file
 ```
 nano.<filename>
+```
+
+
+
+```
+cp -r
+```
+
+
+```
+git rebase <name of file>
 ```
