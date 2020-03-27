@@ -40,7 +40,6 @@ git status
 git diff
 ```
 
-# Push it
 ## Add, commit, and push your changes:
 ```
 git add
