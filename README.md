@@ -5,7 +5,7 @@
 mkdir git
 ```
 
-## Remove from file>
+## Remove from file
 ```
 rm-rf <file name> or rm <file name>
 ```
