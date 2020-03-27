@@ -1,6 +1,4 @@
-# git_practice
-
-Git-Commands:
+# Git Commands:
 
 ## Make new Directory:
 ```
