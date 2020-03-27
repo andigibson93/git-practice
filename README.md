@@ -2,12 +2,30 @@
 
 Git-Commands:
 
-rm-rf "file name"
+## Make new Directory:
+```
+mkdir git
+```
 
--r deletes folder
--f deletes with force(deletes a portected file)
+## Remove from file>
+```
+rm-rf <file name> or rm <file name>
+```
 
-cd git
+## Deletes Folder
+```
+-r
+```
+
+## Deletes with Force(deletes a portected file)
+```
+-f 
+```
+
+## Change Directory
+```
+cd <git> or <file name>
+```
 
 git log(commit log of the repository)
 git status(check status of my working copy)
