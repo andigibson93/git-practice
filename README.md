@@ -88,7 +88,7 @@ nano.<filename>
 cp -r
 ```
 
-
+## Change one branch to another
 ```
 git rebase <name of file>
 ```
