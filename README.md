@@ -1,4 +1,4 @@
-# Git Commands:
+# Git Commands and Basic Terminal Use:
 
 ## Make new Directory:
 ```
@@ -39,9 +39,6 @@ git status
 ```
 git diff
 ```
-
-nano."filename" to add/edit a file
-
 
 # Push it
 ## Add, commit, and push your changes:
@@ -84,3 +81,7 @@ git merge <name of file>
 git rebase <name of file>
 ```
 
+## Add/edit a file
+```
+nano.<filename>
+```
