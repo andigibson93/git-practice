@@ -92,3 +92,8 @@ cp -r
 ```
 git rebase <name of file>
 ```
+
+## Creates a new git repository
+```
+git init
+```
