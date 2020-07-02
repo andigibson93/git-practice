@@ -77,13 +77,12 @@ git stash apply
 git merge <name of file>
 ```
 
-## Add/edit a file
+## Edit a file
 ```
 nano.<filename>
 ```
 
-
-
+##
 ```
 cp -r
 ```
@@ -110,13 +109,6 @@ git congif --global user.email "MY_NAME@example.com
 ```
 git log
 
-git log --<file_name.example>
-```
-
-
-## 
-```
-git log --oneline
 ```
 
 
@@ -125,15 +117,31 @@ git log --oneline
 .gitnore
 ```
 
-## Diguard all changes and stages done after files was commited
-```
-git reset --hard HEAD~1
-```
-
 
 ## View all documents in the currrent directory
 ```
 ls
 
 ls-al
+```
+
+## Diguard all changes and stages done after files was commited
+```
+git reset --hard HEAD~1
+```
+
+## 
+```
+git log --oneline
+```
+
+
+## Check the deleted file
+```
+git log -- <file_name.example>
+```
+
+## To add the deleted file back onto the branch
+```
+git checkout <name of the master branch> -- <filename.example>
 ```
