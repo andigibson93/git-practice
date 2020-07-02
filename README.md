@@ -97,3 +97,33 @@ git rebase <name of file>
 ```
 git init
 ```
+
+
+## 
+```
+git config --global user.name "FIRST_NAME" "LAST_NAME"
+```
+
+
+## 
+```
+git congif --global user.email "MY_NAME@example.com
+```
+
+
+## View all commits done
+```
+git log
+```
+
+
+## 
+```
+git log --oneline
+```
+
+
+## Ignore certain files that should be not commited to the repository
+```
+.gitnore
+```
