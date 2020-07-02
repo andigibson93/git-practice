@@ -93,11 +93,6 @@ cp -r
 git rebase <name of file>
 ```
 
-## Creates a new git repository
-```
-git init
-```
-
 
 ## 
 ```
@@ -114,6 +109,8 @@ git congif --global user.email "MY_NAME@example.com
 ## View all commits done
 ```
 git log
+
+git log --<file_name.example>
 ```
 
 
@@ -126,4 +123,17 @@ git log --oneline
 ## Ignore certain files that should be not commited to the repository
 ```
 .gitnore
+```
+
+## Diguard all changes and stages done after files was commited
+```
+git reset --hard HEAD~1
+```
+
+
+## View all documents in the currrent directory
+```
+ls
+
+ls-al
 ```
