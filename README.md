@@ -178,6 +178,11 @@ git branch <name of branch>
 
 ex: git branch develop
 ```
+
+## Create a new branch on the other branch thats not master
+```
+git checkout -b <oldbranchname>/<newbranchname>
+```
 ## Switch and work on that current branch
 ```
 git checkout <name of branch>
