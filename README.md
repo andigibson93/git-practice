@@ -214,3 +214,10 @@ git branch -d <branchname>
 git branch -m <oldbranchname newbranchname>
 
 ```
+
+##Visualilze whats happening in git
+```
+
+git log --oneline --graph --decorate --all
+
+```
