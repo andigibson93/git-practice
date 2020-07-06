@@ -113,9 +113,9 @@ git merge <name of file>
 nano.<filename>
 ```
 
-##
+## Make an exact opposite commit of our last commit, undoing it, while leaving all history intact. 
 ```
-cp -r
+git reset --hard HEAD^
 ```
 
 ## Merging a file from one branch to another
@@ -176,10 +176,9 @@ git branch <name of branch>
 git checkout <name of branch>
 
 ex: git checkout develop
-```
 
-## or 
-```
+or
+
 git checkout -b <name of branch>
 ```
 
