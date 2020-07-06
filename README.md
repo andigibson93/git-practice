@@ -1,5 +1,7 @@
 # Git Commands and Basic Terminal Use:
 
+*note HEAD is a pointer to the branch you are currently in **
+
 ## Make new Directory:
 ```
 mkdir git
@@ -45,6 +47,10 @@ git diff
 git add
 git commit -m "add message"
 git push
+
+or 
+
+git push origin master
 ```
 
 
@@ -145,3 +151,11 @@ git log -- <file_name.example>
 ```
 git checkout <name of the master branch> -- <filename.example>
 ```
+
+## Show origin of the branch
+```
+git remote
+
+git remote show origin
+```
+
