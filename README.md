@@ -33,9 +33,9 @@ git --help
 touch <filename>
 ```
 
-## Remove file
+## Delete file with force and recursively
 ```
-rm-rf <file name> or rm <file name>
+rm -rf <file name> or rm <file name>
 ```
 
 ## Come out of directory
