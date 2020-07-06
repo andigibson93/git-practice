@@ -68,6 +68,11 @@ cd <git> or <file name>
 git log
 ```
 
+## Most recent commit entry
+```
+git log -n1
+```
+
 ## Check status of my working copy
 ```
 git status
