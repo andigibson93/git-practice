@@ -255,3 +255,8 @@ git push --set-upstream origin <nameofbranch>
 ```
 git request-pull -p origin/master .
 ```
+
+## Creates an empty repository
+```
+git init --bare
+```
