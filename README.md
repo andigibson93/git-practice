@@ -89,7 +89,7 @@ git add .(add all files) or git add -A(add one file)
 git commit -m "add message" or git commit <filename> -m "message"
 
 or 
-git commit -a -m "add message"
+git commit -a -m "add message" or git commit -am "add message"
 
 git push or git push origin master
 ```
@@ -175,6 +175,8 @@ git remote show origin
 ## Create a branch
 ```
 git branch <name of branch>
+
+ex: git branch develop
 ```
 ## Switch and work on that current branch
 ```
