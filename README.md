@@ -159,3 +159,29 @@ git remote
 git remote show origin
 ```
 
+## Create a branch
+```
+
+git branch <name of branch>
+
+```
+## Switch and work on that current branch
+```
+git checkout <name of branch>
+
+ex: git checkout develop
+```
+
+## or 
+```
+
+git checkout -b <name of branch>
+
+```
+
+## Push to origin when working with more than one branch
+```
+
+git push -u origin dev
+
+```
