@@ -185,3 +185,32 @@ git checkout -b <name of branch>
 git push -u origin dev
 
 ```
+
+## view all branches and on what branch you are working on
+```
+
+git branch
+
+```
+
+
+## View remote tracking and local branches
+```
+
+git branch -a
+
+```
+
+## Delete a branch
+```
+
+git branch -d <branchname>
+
+```
+
+## Rename branch
+```
+
+git branch -m <oldbranchname newbranchname>
+
+```
