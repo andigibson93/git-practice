@@ -245,3 +245,8 @@ touch <filename>/.git-keep
 git reset HEAD <filename>
 git checkout -- <filename>
 ```
+
+## Tells machine where to push the new branch to
+```
+git push --set-upstream origin <nameofbranch>
+```
