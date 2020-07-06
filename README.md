@@ -50,7 +50,7 @@ cd -
 
 ## Deletes Folder
 ```
--r
+rm -r <nameofFolder>
 ```
 
 ## Deletes with Force(deletes a portected file)
