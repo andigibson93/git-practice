@@ -228,3 +228,9 @@ git log --oneline --graph --decorate --all
 ```
 touch <filename>/.git-keep
 ```
+
+## Resort  file using git
+```
+git reset HEAD <filename>
+git checkout -- <filename>
+```
