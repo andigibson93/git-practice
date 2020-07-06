@@ -73,15 +73,19 @@ git log
 git status
 ```
 
-## Difference in the file
+## See changes in the file (difference)
 ```
 git diff
 ```
 
 ## Add, commit, and push your changes:
 ```
-git add
+git add .(add all files) or git add -A(add one file)
 git commit -m "add message" or git commit <filename> -m "message"
+
+or 
+git commit -a -m "add message"
+
 git push or git push origin master
 ```
 
@@ -124,6 +128,16 @@ git rebase <name of file>
 git log
 ```
 
+# Gives the lists of commits without details
+```
+git log --oneline
+```
+
+## Check the deleted file
+```
+git log -- <file_name.example>
+```
+
 ## Ignore certain files that should be not commited to the repository
 ```
 .gitnore
@@ -139,16 +153,6 @@ ls-al
 ## Diguard all changes and stages done after files was commited
 ```
 git reset --hard HEAD~1
-```
-
-## 
-```
-git log --oneline
-```
-
-## Check the deleted file
-```
-git log -- <file_name.example>
 ```
 
 ## To add the deleted file back onto the branch
@@ -194,6 +198,16 @@ git branch
 git branch -a
 ```
 
+## Make changes without editing the commit
+```
+git commit --amend --no-edit
+```
+
+## Edit a commit message, to add files accidentally left out of the commit, or to remove files that were added by mistake
+```
+git commit --amend
+```
+
 ## Delete a branch
 ```
 git branch -d <branchname>
@@ -207,4 +221,10 @@ git branch -m <oldbranchname newbranchname>
 ## Visualilze whats happening in git
 ```
 git log --oneline --graph --decorate --all
+```
+
+
+## Create an empty file with that filename subdirectory and add the contents of the subdirectory to the index
+```
+touch <filename>/.git-keep
 ```
