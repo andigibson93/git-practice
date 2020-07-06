@@ -2,14 +2,50 @@
 
 *note HEAD is a pointer to the branch you are currently in **
 
+## Configure git
+```
+git config --global user.name "FIRST_NAME" "LAST_NAME"
+
+git congif --global user.email "MY_NAME@example.com
+
+git config --list
+```
+
 ## Make new Directory:
 ```
 mkdir git
 ```
 
-## Remove from file
+## Initalize the git repository
+```
+git init
+```
+
+## Get Help
+```
+
+git --help
+
+```
+
+## Create file
+```
+touch <filename>
+```
+
+## Remove file
 ```
 rm-rf <file name> or rm <file name>
+```
+
+## Come out of directory
+```
+cd .. 
+```
+
+## Goes back into the previous directory
+```
+cd -
 ```
 
 ## Deletes Folder
@@ -27,7 +63,7 @@ rm-rf <file name> or rm <file name>
 cd <git> or <file name>
 ```
 
-## Commit log of the repository
+## Check all commits
 ```
 git log
 ```
@@ -45,23 +81,8 @@ git diff
 ## Add, commit, and push your changes:
 ```
 git add
-git commit -m "add message"
-git push
-
-or 
-
-git push origin master
-```
-
-
-## Come out of directory
-```
-cd .. 
-```
-
-## Goes back into the previous directory
-```
-cd -
+git commit -m "add message" or git commit <filename> -m "message"
+git push or git push origin master
 ```
 
 ## Process of pull
@@ -98,31 +119,15 @@ cp -r
 git rebase <name of file>
 ```
 
-
-## Create git
-```
-git config --global user.name "FIRST_NAME" "LAST_NAME"
-```
-
-
-## 
-```
-git congif --global user.email "MY_NAME@example.com
-```
-
-
 ## View all commits done
 ```
 git log
-
 ```
-
 
 ## Ignore certain files that should be not commited to the repository
 ```
 .gitnore
 ```
-
 
 ## View all documents in the currrent directory
 ```
@@ -140,7 +145,6 @@ git reset --hard HEAD~1
 ```
 git log --oneline
 ```
-
 
 ## Check the deleted file
 ```
@@ -161,9 +165,7 @@ git remote show origin
 
 ## Create a branch
 ```
-
 git branch <name of branch>
-
 ```
 ## Switch and work on that current branch
 ```
@@ -174,50 +176,35 @@ ex: git checkout develop
 
 ## or 
 ```
-
 git checkout -b <name of branch>
-
 ```
 
 ## Push to origin when working with more than one branch
 ```
-
 git push -u origin dev
-
 ```
 
 ## view all branches and on what branch you are working on
 ```
-
 git branch
-
 ```
-
 
 ## View remote tracking and local branches
 ```
-
 git branch -a
-
 ```
 
 ## Delete a branch
 ```
-
 git branch -d <branchname>
-
 ```
 
 ## Rename branch
 ```
-
 git branch -m <oldbranchname newbranchname>
-
 ```
 
 ## Visualilze whats happening in git
 ```
-
 git log --oneline --graph --decorate --all
-
 ```
