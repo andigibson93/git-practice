@@ -250,3 +250,8 @@ git checkout -- <filename>
 ```
 git push --set-upstream origin <nameofbranch>
 ```
+
+## Pull from the master branch
+```
+git request-pull -p origin/master .
+```
