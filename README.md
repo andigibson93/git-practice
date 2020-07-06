@@ -215,7 +215,7 @@ git branch -m <oldbranchname newbranchname>
 
 ```
 
-##Visualilze whats happening in git
+## Visualilze whats happening in git
 ```
 
 git log --oneline --graph --decorate --all
