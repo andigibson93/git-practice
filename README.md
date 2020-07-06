@@ -93,13 +93,13 @@ nano.<filename>
 cp -r
 ```
 
-## Change one branch to another
+## Merging a file from one branch to another
 ```
 git rebase <name of file>
 ```
 
 
-## 
+## Create git
 ```
 git config --global user.name "FIRST_NAME" "LAST_NAME"
 ```
