@@ -260,3 +260,8 @@ git request-pull -p origin/master .
 ```
 git init --bare
 ```
+
+## Add the origin
+```
+git remote add origin <linkToWebsite>
+```
