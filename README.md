@@ -13,7 +13,7 @@ git config --list
 
 ## Make new Directory:
 ```
-mkdir git
+mkdir git or git init --bare
 ```
 
 ## Initalize the git repository
