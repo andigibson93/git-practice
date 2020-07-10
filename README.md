@@ -33,6 +33,11 @@ git --help
 touch <filename>
 ```
 
+## Create a file in a folder
+```
+touch Assets/site.css
+```
+
 ## Delete file with force and recursively
 ```
 rm -rf <file name> or rm <file name>
