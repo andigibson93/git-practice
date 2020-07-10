@@ -75,6 +75,11 @@ rm -rf <file name> or rm <file name>
 cd .. 
 ```
 
+## Navigate back to the directory
+```
+cd ../<nameOfDirectory>
+```
+
 ## Goes back into the previous directory
 ```
 cd -
@@ -296,4 +301,9 @@ git init --bare
 ## Add the origin
 ```
 git remote add origin <linkToWebsite>
+```
+
+## Merges the "add-style" branch into "master" using git merge --ff-only to perform a fast-forward merge. T
+```
+git merge --ff-only add-style
 ```
