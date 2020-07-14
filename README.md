@@ -145,9 +145,9 @@ git pull
 git stash apply
 ```
 
-## Merge file to avoid conflict
+## Merge from master to branch
 ```
-git merge <name of file>
+git merge main
 ```
 
 ## Edit a file
